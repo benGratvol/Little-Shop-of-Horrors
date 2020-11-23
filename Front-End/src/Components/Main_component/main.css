@@ -1,0 +1,26 @@
+
+.mainPage_wraper{
+    height: 800px;
+}
+
+.mainPage_wraper h1 { 
+    font-family: sans-serif;
+    font-style: italic;
+    color: red;
+    text-shadow: 2px 2px black;
+        /* color: black; */
+
+}
+
+
+
+.main-wraper h3{
+    background-color: #FEF265;
+    font-family:Arial;
+    text-shadow:0px 1px 0px #2f6627;
+
+}
+
+.pages_wraper{
+    margin-top: 5%;
+}

@@ -1,0 +1,21 @@
+.config-wraper label {
+    position: relative;
+    margin-left: 10px;
+    left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+.config-wraper input {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.config-wraper select {
+    margin-left: 10px;
+}
+.config-wraper button{
+    margin-left: 5px;
+    position: relative;
+    left: 10px;
+}

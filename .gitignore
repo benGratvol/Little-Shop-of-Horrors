@@ -1,0 +1,10 @@
+Back-End/node_modules
+Fake-Sensor/node_modules
+
+Front-End/node_modules
+
+# Back-End/Configs/config.js
+# Back-End/Configs/*.json
+
+#Back-End/SSL
+

@@ -1,0 +1,52 @@
+.mange-user-wrpaer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.regester-user {
+    /* background-color: #325886; */
+}
+
+.mange-user-wrpaer input {
+   margin-left: 10%;
+}
+.mange-user-wrpaer select {
+    width: 30%;
+    margin-left: 15%;
+ }
+
+ .mange-user-wrpaer p {
+    font-family:Arial;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    /* color: #ffffff; */
+    font-size: 20px;
+
+ }
+ .mange-user-wrpaer button {
+     width: 90%;
+     margin-bottom: 10px;
+    font-family:Arial;
+    font-style: italic;
+ }
+ 
+
+
+.usertabil {
+    width: 100%;
+}
+
+th{
+    font-family: sans-serif;
+    font-style: italic;
+    color:  black;
+    border-style: solid;
+}
+td {
+    border-style: solid;
+    border-color: black;;
+    color: black;
+    font-weight: bold;
+}

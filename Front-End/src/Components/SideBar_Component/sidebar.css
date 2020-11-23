@@ -1,0 +1,200 @@
+/* https://www.youtube.com/watch?v=zsSaMCMUbaw */
+
+.meue-button {
+  /* position: fixed; */
+  /* float: left; */
+  margin-left: 2%;
+  color: white;
+  font-size: 35px;
+}
+
+.meue-button:hover {
+  cursor: pointer;
+}
+
+.sidenav {
+  width: 0;
+  height: 70%;
+  position: fixed;
+  z-index: 1;
+  /* top: 14%; */
+  left: 0;
+  /* background-color:#82A7D6; */
+  background-image: linear-gradient(#006600, #00cc00, #e9e8e8);
+  color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e50914;
+  box-shadow: 10px 5px 5px black;
+}
+.sidenav img {
+  width: 60%;
+  top : 10px;
+  margin-left: 25%;
+  border-radius: 50%;
+
+  background-color: #ffffff;
+}
+
+
+
+.sidenav h5 {
+  text-align: center;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+
+.sidenav h6 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+.sidenav h4 {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav li {
+  /* margin-left: 10px; */
+  /* border-style: solid; */
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sidenav li:hover{
+  /* background-color: #FEF265; */
+  background-color: #b3ffb3 ; 
+  /* color: wheat; */
+
+}
+
+.sidenav h4:hover {
+  color: wheat;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0%;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: black;
+  background-color: transparent;
+  
+}
+.closebtn:hover {
+  cursor: pointer;
+  color:   #FEF265;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+/* new side bar  stleye pit boy animashon  */
+
+
+
+.newNav {
+  animation:colorPulse 5s infinite ease-in-out;
+  background-image:radial-gradient(#444, #111);
+  box-shadow:0 0 5vmin 1vmin #000 inset;
+  box-sizing:border-box;
+  font-family:'Fira Mono', monospace;
+  font-size:20px;
+  height:100vh;
+  overflow:hidden;
+  padding:10vmin;
+  width:100vw;
+}
+
+.newNav:before {
+  animation:wave 10s infinite ease-in-out;
+  content:"";
+  height:20vh;
+  left:0;
+  opacity:.5;
+  position:absolute;
+  right:0;
+  z-index:1;
+}
+
+.newNav:after {
+  background-image:linear-gradient(transparent, transparent 3px, #222);
+  background-size:4px 4px;
+  bottom:0;
+  content:"";
+  left:0;
+  pointer-events:none;
+  position:absolute;
+  right:0;
+  top:0;
+  z-index:2;
+}
+
+p:last-child:after {
+  animation:blink 1s infinite;
+  content:"_";
+}
+
+@keyframes colorPulse {
+  0%, 100% {
+    color:#0c0;
+  }
+  48%, 52% {
+    color:#090;
+  }
+  50% {
+    color:#060;
+  }
+}
+
+@keyframes wave {
+  0% {
+    box-shadow:0 -10vh 20vh #0c0;
+    top:-100vh;
+  }
+  48%, 52% {
+    box-shadow:0 -10vh 20vh #090;
+  }
+  50% {
+    box-shadow:0 -10vh 20vh #060;
+  }
+  100% {
+    box-shadow:0 -10vh 20vh #0c0;
+    top:70vh;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity:0;
+  }
+}
+
+
+
+
+

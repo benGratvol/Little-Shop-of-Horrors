@@ -1,0 +1,112 @@
+
+ /* not in use   */
+
+.notificatio-wraper{
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    z-index: 1;
+    
+    /* background-color: SpringGreen   ; */
+    /* background-color: Yellow   ; */
+    /* background-color: #ff0000;  */
+    /* background-color:DarkBlue ;  */
+    /* border-bottom-right-radius:90%;
+    border-top-right-radius: 90%; */
+   
+}
+ /* not in use   */
+
+.warning  {
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    left: 10px;
+    background-color: Yellow   ;
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+ 
+} 
+.info {
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    background-color:DarkBlue ; 
+    box-shadow: 5px 10px gray;
+    color: white ; 
+
+} 
+.fail {
+    width: 20%;
+    position: fixed;
+    left: 10px;
+    z-index: 1;
+    background-color: #ff0000; 
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+
+} 
+.sucsses {
+    width: 20%;
+    position: fixed;
+    left: 80%;
+    z-index: 1;
+    background-color: SpringGreen   ;
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+
+} 
+
+.notificatio-wraper h4 {
+position: absolute;
+float: right;
+}
+.notificatio-wraper  p { 
+    color: black;
+ 
+}
+
+.fadeOut .notificatio-wraper {
+    width: 100%;
+    opacity:0;
+    transition: width 0.0s 2.0s, height 0.0s 0.0s, opacity 1.0 1.0s;
+    box-shadow: 5px 10px gray;
+    z-index: 1;
+}
+.fadeIn .notificatio-wraper{
+    width: 100%;
+    opacity:1;
+    transition: width 0.0s, height 0.0s, opacity 5.0s 1.0s;
+    box-shadow: 5px 10px gray;
+    z-index: 1;
+}
+
+.fadeIn img {
+    width: 20%;
+    border-radius: 50%;
+    
+}
+
+
+.stam {
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    z-index: 1;
+    -webkit-animation-duration: 10s;animation-duration: 5s;
+    -webkit-animation-fill-mode: both;animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+ 
+ @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+
+
+ .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+ }
