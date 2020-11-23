@@ -34,7 +34,7 @@ cd into BackEnd<br />
 run the following:<br />
 `npm install`<br />
 after the downloading of the dependencies run  :<br />
-`npm  server.js`
+`node  server.js`
 
 ## You Will See The Fallowing
 ` [?] Server Started on port : 3300 | 23 Nov 2020 15:29:50  [?]`<br />
